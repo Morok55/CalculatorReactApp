@@ -56,28 +56,9 @@
 ---
 
 ## 🌐 Деплой на GitHub Pages
-
-1. Установи пакет:
-   ```bash
-   npm install --save-dev gh-pages
-   ```
-
-2. В `package.json` добавь:
-   ```json
-   {
-     "homepage": "https://calcfastbot.netlify.app/",
-     "scripts": {
-       "predeploy": "npm run build",
-       "deploy": "gh-pages -d build"
-     }
-   }
-   ```
-
-3. Выполни:
-   ```bash
-   npm run deploy
-   ```
-
+1. Залить проект в репозиторий.
+2. В настройках (**Settings → Pages**) включить GitHub Pages.
+3. Выбрать ветку `main` и корневую папку `/ (root)`.
 4. Сайт будет доступен по адресу: https://calcfastbot.netlify.app/
 
 ---
@@ -85,6 +66,8 @@
 ## 🌐 Доступ
 Приложение доступно в Telegram по адресу:  
 👉 [CalcFastBot](https://t.me/CalcFastBot)
+
+---
 
 ## ✨ Автор
 **Morok55**
